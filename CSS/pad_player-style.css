@@ -1,0 +1,592 @@
+p,h1,h2,h3,h4,h5,h6{
+	font-family: 'Titillium Web', sans-serif;
+	color:black;
+}
+p{
+	font-size:20px;
+}
+body{
+	background: #456;
+	overflow:hidden;
+}
+.track{
+	background: #545445;
+    width: auto;
+    height: auto; 
+	margin-top: 75px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
+	
+}
+.button{
+	width:50px;
+	height:50px;
+	padding-left: 12px;
+	padding-top: 10px;
+	font-size:24px;
+}
+.buttonp{
+	width:50px;
+	height:50px;
+	padding-left:10px;
+	padding-top:7px;
+	font-size: 25px;
+}
+.buttons{
+	width:50px;
+	height:50px;
+	padding-left:8px;
+	padding-top: 7px;
+	font-size: 25px;
+}
+.loader{
+	margin-left: px;
+	width:218px;
+	height:50px;
+	font-family: 'Titillium Web', sans-serif;
+	padding-left: 12px;
+	padding-top: 10px;
+	font-size:24px;
+}
+.save-button{
+	margin-left: px;
+	width:200px;
+	height:50px;
+	font-family: 'Titillium Web', sans-serif;
+	padding-left: 12px;
+	padding-top: 10px;
+	font-size:24px;
+}
+.controller{
+	font-family: 'Titillium Web', sans-serif;
+	
+}
+.setting{
+	
+	
+	margin-left: 10px;
+	margin-top: 20px;
+}
+h3{
+	color:#000000;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+}
+h4{
+	color:#000000;
+	font-family: 'Titillium Web', sans-serif;
+	text-align: center;
+}
+#chord{
+	width: 235px;
+	height:75px;
+	font-size: 30px;
+	color:#111111;
+	font-family: 'Titillium Web', sans-serif;
+	background:#dddddd;
+	border:solid 7px #555555;
+}
+.pad_off{
+	width: 75px;
+	height:75px;
+	background:#999999;
+	border:solid 7px #111111;
+	color: #111111;
+	font-size: 37px;
+	text-align: center;
+}
+
+.pad_off:hover{
+	width: 75px;
+	height:75px;
+	background:#999999;
+	border:solid 7px #111111;
+	color: #111111; !important
+	font-size: 37px;
+	text-align: center;
+}
+.pad_off:action{
+	width: 75px;
+	height:75px;
+	background:#999999;
+	border:solid 7px #111111;
+	color: #111111; !important
+	font-size: 37px;
+	text-align: center;
+}
+.pad_off:focus{
+	width: 75px;
+	height:75px;
+	background:#999999;
+	border:solid 7px #111111;
+	color: #111111; !important
+	font-size: 37px;
+	text-align: center;
+}
+
+.pad_on{
+	width: 75px;
+	height:75px;
+	background:#E69500;
+	border:solid 7px #FFB700;
+	color: #111111; 
+	font-size: 37px; 
+	text-align: center;
+}
+
+.pad_on:hover{
+	width: 75px;
+	height:75px;
+	background:#E69500;
+	border:solid 7px #FFB700;
+	color: #111111; 
+	font-size: 37px;
+	text-align: center;
+}
+.pad_on:action{
+	width: 75px;
+	height:75px;
+	background:#E69500;
+	border:solid 7px #FFB700;
+	color: #111111; 
+	font-size: 37px;
+	text-align: center;
+}
+.pad_on:focus{
+	width: 75px;
+	height:75px;
+	background:#E69500;
+	border:solid 7px #FFB700;
+	color: #111111;
+	font-size: 37px;
+	text-align: center;
+}
+
+.shift_off{
+	width: 175px;
+	height:75px;
+	background:#999999;
+	border:solid 7px #111111;
+	color: #111111;
+	font-size: 37px;
+	
+	text-align: right;
+}
+
+.shift_on{
+	width: 175px;
+	height:75px;
+	background:#E69500;
+	border:solid 7px #FFB700;
+	color: #111111;
+	font-size: 37px;
+	
+	text-align: right;
+}
+
+
+.sample_loader_panel{
+	height:500px;
+	margin-top: 30px;
+	padding-left: 20px;
+	padding-right: 20px
+}
+
+.panel-left{
+	font-family: 'Titillium Web', sans-serif;
+	width:42px;
+	font-size:20px;
+}
+.panel-middle{
+	font-family: 'Titillium Web', sans-serif;
+	font-size:20px;
+	width: 273px;
+	
+}
+.panel-right{
+	width:42px;
+	height:42px;
+	
+}
+.user-button{
+	height:50px;
+	font-family: 'Titillium Web', sans-serif;
+	padding-left: 12px;
+	padding-top: 7px;
+	padding-right: 7px;
+	font-size:24px;
+/*	position: absolute;*/
+/*    right: 0px;*/
+}
+
+
+.fileUpload {
+	
+	position: relative;
+	overflow: hidden;
+
+		
+}
+.panel-right span{
+	font-size: 23px;
+}
+
+.fileUpload input.upload {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	margin: 0;
+	padding: 0;
+	font-size:20px;
+	cursor: pointer;
+	opacity: 0;
+	filter: alpha(opacity=0);
+	
+}
+/*
+.form-control{
+	width: 300px;
+	height:50px;
+	margin-right: 20px;
+	font-size: 30px;
+	font-color:#ffffff;
+	font-family: 'Titillium Web', sans-serif;
+	background:#dddddd;
+	border:solid 7px #FF8400;
+	border-radius: 5px;
+	-webkit-appearance: none;
+
+}
+*/
+.tools{
+	width: auto;
+	height:75px;
+	border-radius: 5px;
+	margin-right: 3px;
+	font-size: 30px;
+	color:#ffffff;
+	font-family: 'Titillium Web', sans-serif;
+	background:#dddddd;
+	
+	border:solid 7px #FF8400;
+}
+
+.tool-r{
+	width: auto;
+	height:auto;
+	border-radius: 5px;
+	font-size: 30px;
+	color:#ffffff;
+	font-family: 'Titillium Web', sans-serif;
+	background:#dddddd;
+	border:solid 7px #FF8400;
+	border-left:none;
+/*	border-right:none;*/
+}
+.tools:hover{
+	border:solid 7px #FF8400;
+	background:#ffaa34;
+}
+.tool-r:hover{
+	border:solid 7px #FF8400;
+	border-left:none;
+/*	border-right:none;*/
+	background:#ffaa34;
+}
+.tools:focus{
+	border:solid 7px #FF8400;
+	background:#ffaa34;
+}
+.tool-middle:focus{
+	border:solid 7px #FF8400;
+	border-left:none;
+	border-right:none;
+	background:#ffaa34;
+}
+
+/*
+.form-control:hover{
+	border:solid 7px #FF2388;
+}
+.form-control:focus{
+	border:solid 7px #FF55aa;
+}
+*/
+.btn-group{
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 10px;
+}
+.page-arrow{
+	width:auto;
+	height:50px;
+	font-size: 25px;
+	color:#111111;
+	
+	
+}
+.name-page{
+	width:100px;
+	height:50px;
+	font-size: 25px;
+	color:#111111;
+	text-align: center;
+	font-family: 'Titillium Web', sans-serif;
+	
+}
+.font{
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 24px;
+}
+#kb_num_line{
+	margin-left:170px;
+}
+#kb_top_line{
+	margin-left:210px;
+	margin-top: 5px;
+}
+#kb_mid_line{
+	margin-left: 250px;
+	margin-top: 5px;
+}
+#kb_down_line{
+	
+	margin-top: 5px;
+	margin-left: 120px;
+	margin-bottom: 5px;
+}
+
+#loop_deck_button {
+	height:50px;
+	font-family: 'Titillium Web', sans-serif;
+	padding-left: 12px;
+	padding-top: 10px;
+	font-size:24px;
+}
+
+#loop_deck{
+	position:fixed;
+    top: auto;
+	bottom:auto;
+}
+
+#sample-loader{
+	position:fixed;
+    top: 15px;
+	bottom:auto;
+	
+}
+#save-panel{
+	position:fixed;
+    top: 35%;
+	
+	
+}
+.modal-body {
+	background:#888;
+}
+.slp {
+	background:#888;
+	height: 550px;
+}
+.spp {
+	background:#888;
+	height: 100px;
+}
+.span-1-of-3{
+	max-width: 399px;
+}
+.col-md-4{
+	/*max-width: 399px;*/
+	padding:5px;
+}
+.center{
+	
+	margin: 0 auto; 
+	width:250px;
+}
+.inline{
+	 display: inline-block;
+}
+.small {
+	width:50%;
+	margin: 0 auto;
+
+}
+#user{
+	margin-left:300px; 
+}
+#save_button{
+	
+	margin-left: 20px;
+}
+
+.font {
+	
+}
+
+#ld_tool {
+
+}
+
+#alert_overwrite {
+	margin: 0 auto;
+    width: 600px;
+	padding: 10px;
+}
+
+#overwrite {
+	float: right;
+	margin-right: 20px;
+}
+
+#edited {
+	float: right;
+	margin-right: 12px;
+}
+
+#alert_savesuccess {
+	margin: 0 auto;
+    width: 600px;
+	padding: 10px;
+}
+
+#alert_saving {
+	margin: 0 auto;
+    width: 580px;
+	padding: 10px;
+}
+
+.lpp {
+	max-height:400px;
+	overflow: auto;
+	padding: 0px;
+	
+}
+
+#loadlistbox {
+	margin-bottom: 0px;
+	
+	
+}
+#loadlistbox a:hover{
+	background-color: #ffecb3;
+
+}
+#loadlistbox a:focus{
+
+	background-color: #ffd14d;
+}
+
+.list-group-item {
+	font-family: 'Titillium Web', sans-serif;
+	font-size: 24px;
+}
+
+.cell {
+	width: 100%;
+}
+
+.big {
+	width:70%;
+	
+	margin: 0 auto;
+}
+
+#load_button {
+	margin-top: 20px;
+	margin-left: 765px;
+}
+#load-panel{
+	position:fixed;
+    top: 5%;
+	
+	
+}
+
+#properties {
+	margin-top: 10px;
+	height: 150px;
+	border-radius: 2px;
+/*	background-color: bisque;*/
+}
+
+#demo-box {
+	float: right;
+	margin-right: 10px;
+	margin-top: 10px;
+}
+
+.right {
+	 left: auto;
+    right:0;
+}
+
+#demo1 {
+	padding: 3px,7px,3px,7px;
+}
+
+
+
+#tutorial_panel .modal-body{
+
+}
+#myCarousel {
+	height: 500px;
+}
+.item img{
+	width: 100%;
+	height:auto;
+}
+/*
+.item .col-lg-5{
+	text-align: left;
+}
+*/
+#myCarousel{
+	margin-top: 20px;
+}
+.carousel-control {
+	height:50px;
+	margin-top: 450px;
+}
+
+#understand{
+	position: relative;
+	right: 10px;
+	top:150px;
+	left: 275px;
+}
+
+.bigr {
+
+	margin-top: 50px;
+}
+#understand{
+	
+	margin: 0  auto;   
+	width: 200px;
+}
+#tutor {
+	float: right;
+		margin-right: 10px;
+	margin-top: 10px;
+	
+}
+
+#alert_demo {
+	float: right;
+		margin-right: 10px;
+	margin-top: 10px;
+	padding: 10px 15px;
+	
+	text-align: center;
+}
+
+#loading {
+	top: auto;
+	bottom: 50%;
+}

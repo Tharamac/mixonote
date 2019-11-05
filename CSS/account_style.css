@@ -1,0 +1,49 @@
+
+form {
+	margin: 0 auto;
+}
+.font{
+	font-family: 'Titillium Web', sans-serif;
+}
+#loginform {
+	width: 50%;
+	height: 40%;
+	margin: 0 auto;
+	border: solid 2px #333;
+	border-radius: 7px;
+	margin-top: 10%;
+	background: #ddd;
+
+ 
+}
+#regisform, #resetpassform {
+	width: 60%;
+	height: 40%;
+	margin: 0 auto;
+	border: solid 2px #333;
+	border-radius: 7px;
+	margin-top: 10%;
+	background: #ddd;
+
+ 
+}
+
+.box {
+	
+}
+
+.font-24 {
+	font-size: 24px;
+}
+
+.cell {
+	
+}
+
+.font-18 {
+	font-size: 20px;
+}
+
+.hi {
+	height: 40px;
+}
